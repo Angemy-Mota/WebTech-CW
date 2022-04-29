@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.">
+    <title>rockQ</title>
+    <link rel="stylesheet" href="../../../home/style.css">
+    <link rel="stylesheet" href="../../categories quiz styles.css">
+    <img src="../../../images/Rock-Quiz-Top.jpg" alt="logo" style="max-width: 621px; max-height: 349px;">
+    <body>                      
+        <!--Navegation menu-->
+        <nav>
+            <a class="link" href="../../../home/home.html">Home</a>
+            <div class="dropdown-menu">
+            <button class="menu-button" href="../categories.html">Categories</button>
+                <div class="menu-tabs">
+                    <a class="links" href="../../general knowledge/general.html">General Knowledge</a>
+                    <a class="links" href="../../music/music.html">Music</a>
+                    <a class="links" href="../../sports/sports.html">Sports</a>
+                    <a class="links" href="../../movies/movies.html">Movies</a>
+                    <a class="links" href="../../world/world.html">World</a>
+                    <a class="links" href="../../language/language.html">Language</a>                       
+                </div>
+            </div>
+        </nav>
+    <!--Quizzes page-->
+    <section class="icons">
+        <figure>
+            <a class="links2" href="../../music/rock/rockQ.html">
+            </a>
+        </figure>
+        <!--Quiz Container-->
+    <div class="container">
+        <div id="quiz-start" class="flex-column justify-center">
+            <div id="quiz-box">
+                <div class="quiz-box-item">
+                    <p id="quiz-progress-text" class="quiz-box-prefix">
+                        Question
+                    </p>
+                    <div id="quiz-progress-bar">
+                        <div id="quiz-progress-bar-full"></div>
+                    </div>
+                </div>
+                <div class="quiz-box">
+                    <p class="quiz-box-prefix">
+                        Score
+                    </p>
+                    <h1 class="quiz-box-main-text" id="score">
+                        0
+                    </h1>
+                </div>
+            </div>
+            <h2 id="question">question here!</h2>
+            <div class="choices-container">
+                <p id="choices-prefix">A)</p>
+                <p class="choices-text" data-number="1"> Choice 1</p>
+            </div>
+            <div class="choices-container">
+                <p id="choices-prefix">B)</p>
+                <p class="choices-text" data-number="2"> Choice 2</p>
+            </div>
+            <div class="choices-container">
+                <p id="choices-prefix">C)</p>
+                <p class="choices-text" data-number="3"> Choice 3</p>
+            </div>
+            <div class="choices-container">
+                <p id="choices-prefix">D)</p>
+                <p class="choices-text" data-number="4"> Choice 4</p>
+            </div>
+        </div>
+    </div>
+    <script src="rock.js"></script>
+    </section>
+    <footer>
+        Web Tech Coursework Part 2 - Quiz Site | Edinburgh Napier University - May 2022 |
+        Created by - Angemy Mota | Powered by - GitHub
+    </footer>
+</head>
+</body>
+</html>

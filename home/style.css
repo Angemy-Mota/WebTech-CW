@@ -1,0 +1,102 @@
+/*Banner style configuration*/
+img {display: block;
+     margin: auto;
+     border-radius: 25px;
+     padding-bottom: 10px;
+     width: 100%;}
+/*Background color*/
+body {background-color: rgb(0, 0, 0);}
+/*CSS style configurations for the menu bar*/
+/* Menu button style*/
+.menu-button {
+    background-color: rgb(49, 45, 45);
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;}
+/* Dropdown Menu Style*/
+.dropdown-menu {
+    position: relative;
+    display: inline-block;}
+/*Dropdown menu configurations*/
+.menu-tabs {
+    display: none;
+    position: absolute;
+    background-color: rgb(49, 45, 45);
+    min-width: 160px;
+    z-index: 1;}
+/*Navigation bar color*/
+nav{background-color: rgb(49, 45, 45);
+    margin: auto;
+    max-width: auto;}
+/*Letter style for links in dropdown menu*/    
+.link,.links{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;}
+/*Hover and dropdown styles for link and links*/
+.links{display: block;}
+.link{display: inline-block;}
+.links:hover,.link:hover{
+    background-color: rgb(218, 10, 10); 
+    transform: scale(1.10);
+    box-shadow: 0 0 3px 3px rgb(148, 142, 142);
+    border-radius: 3px;
+}
+.dropdown-menu:hover .menu-tabs{display: block;}
+.dropdown-menu:hover .menu-button{
+    background-color: rgb(218, 10, 10); 
+    transform: scale(1.10);
+    box-shadow: 0 0 3px 3px rgb(148, 142, 142);
+    border-radius: 3px;
+}
+/*Icons Image and text styles*/
+.icons {
+    background-image: url("../images/background.PNG");
+    width: auto;
+    height: 500 auto;
+    border: 5px;
+    border-color: rgb(8, 214, 214);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.icons figure {
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 16px;
+}
+.icons figure img {
+    max-width: 250px;
+    position: relative;
+}
+/* To eliminate the link text decorations */
+.links2 {
+    display: block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.links2:hover {
+    transform: scale(1.15);
+}
+/* footer */
+footer {
+    background: rgb(49, 45, 45);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+}
